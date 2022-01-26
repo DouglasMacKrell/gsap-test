@@ -18,7 +18,7 @@
 Can `gsap` be used within a modern React.js project?
 
 ## THE SOLUTION
-After some research, I have been able to import the 'gsap' npm package, and implement it in this project test. This React.js App will highlight:
+After some research, I have been able to import the `gsap` npm package, and implement it in this React.js-based project test.
 
 ** **
 
