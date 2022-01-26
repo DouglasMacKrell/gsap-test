@@ -1,70 +1,96 @@
-# Getting Started with Create React App
+# Testing gsap Within A React.js Project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[![Douglas MacKrell](https://www.douglasmackrell.com/Doug-Portfolio-Social.png)](https://dougmackrell.com)
 
-## Available Scripts
+**Douglas MacKrell** is a NYC based Full Stack Web Developer who is currently looking for work! 
 
-In the project directory, you can run:
+<a href="https://www.linkedin.com/in/douglasmackrell/"><img src="https://dougs-crossing-game.netlify.app/linkedin.svg" alt="LinkedIn" width="25" height="25" /></a> [linkedin.com/in/douglasmackrell](https://www.linkedin.com/in/douglasmackrell/)
 
-### `npm start`
+<a href="https://twitter.com/DouglasMacKrell"><img src="https://dougs-crossing-game.netlify.app/twitter.svg" alt="Twitter" width="25" height="25" /></a> [twitter.com/DouglasMacKrell](https://twitter.com/DouglasMacKrell)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<a href="https://youtube.com/bigmackrell"><img src="https://dougs-crossing-game.netlify.app/youtube.svg" alt="YouTube" width="25" height="25" /></a> [youtube.com/bigmackrell](https://youtube.com/bigmackrell)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<a href="mailto:bigmackrell+github@gmail.com?subject=[GitHub]"><img src="https://dougs-crossing-game.netlify.app/gmail.svg" alt="YouTube" width="25" height="25" /></a> [bigmackrell@gmail.com](mailto:bigmackrell+github@gmail.com?subject=[GitHub])
 
-### `npm test`
+** **
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## THE PROBLEM
+Can `gsap` be used within a modern React.js project?
 
-### `npm run build`
+## THE SOLUTION
+After some research, I have been able to import the 'gsap' npm package, and implement it in this project test. This React.js App will highlight:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+** **
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## FEATURES
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+* Front Page
+  * A beautiful 3-stage animation triggered by a user's scroll
+    * Clip-Path Circle enlarges to reveal a video background while the centered Pursuit Logo shrinks and disappears
+    * Page title fades in
+    * Page sub-title fades in
+* Second Page
+  * Archive of Jordan Manley's Advanced DSA classwork
+    * For this test, this will be represented with just 2 class containers as a proof of concept
 
-### `npm run eject`
+## FUTURE FEATURES
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+* Create components for Class-Containers and other reusable elements
+* Implement testing
+* Update CSS to SCSS/SASS
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## TECHNICAL MILESTONES
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+* Using 
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## TECHNOLOGIES USED
 
-## Learn More
+* **React.js** For the front-end/client interface of this app
+* **gsap** Javascript toolset for implementing CSS animations
+* **JavaScript**
+* **HTML5**
+* **CSS3**
+* **SASS** Currently unused, but incorporated to check for unexpected conflicts with `gsap`
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## LOCAL SETUP
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+**NOTE: You must install [Node.js](https://nodejs.org) in your computer for this to run.**
 
-### Code Splitting
+You can check to see if you already have Node.js by typing `node -v` in your terminal. If your shell/terminal doesn't complain and you see version numbers you are good to go.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+1. Clone this repo into a folder of your choice:
 
-### Analyzing the Bundle Size
+       `git clone https://github.com/DouglasMacKrell/gsap-test.git`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+2. Install dependencies:
 
-### Making a Progressive Web App
+       `npm install`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+3. To launch the React App, enter:
 
-### Advanced Configuration
+       `npm start`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+4. A new browser tab should have been opened and the App should be running. If that is not the case check the terminals output for errors, if you are unable to troubleshoot the problem, I would be happy to address issues so open [one](/issues)
 
-### Deployment
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+### Please check out one of my favorite projects, [DougTV!](https://dougtv.herokuapp.com)
 
-### `npm run build` fails to minify
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[![DougTV Social Media](https://dougtv.herokuapp.com/DougTV-Social.png)](https://dougtv.herokuapp.com)
+
+---
+
+<details>
+    <summary>
+        Before you leave, please take note:
+    </summary>
+
+You're the best! Thank you for visiting!
+
+Please give this project a star and be sure to check out my [YouTube Channel](https://youtube.com/BigMacKrell)!
+
+</details>
+
+** **
