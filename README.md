@@ -41,7 +41,9 @@ After some research, I have been able to import the `gsap` npm package, and impl
 
 ## TECHNICAL MILESTONES
 
-* Using 
+* Using `gsap` to implement a timeline with a ScrollTrigger
+* Hosting `.mp4` video in the public folder
+* Adjusting the duration of animated elements within the `gsap` timeline
 
 ## TECHNOLOGIES USED
 
