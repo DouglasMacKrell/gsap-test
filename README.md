@@ -1,4 +1,4 @@
-# Testing gsap Within A React.js Project
+# Testing `gsap` Within A React.js Project
 
 [![Douglas MacKrell](https://www.douglasmackrell.com/Doug-Portfolio-Social.png)](https://dougmackrell.com)
 
